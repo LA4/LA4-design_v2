@@ -1,0 +1,454 @@
+/* 
+=====================================tablettes====================== 
+*/
+
+@media screen and (max-width:960px){
+  /* header */
+  header{
+    max-width:580px;
+}
+/* menu */
+.menu{
+
+   flex-wrap: nowrap;
+    width: 12rem;
+    height: 5rem;  
+}
+}
+
+@media screen and (max-width:850px){
+
+  /* main- */
+main{
+    
+    max-width: 800px;
+}
+/* end main */
+/* contact */
+.container_contact{
+    left: 10px;
+}
+/* end contact */
+/* creation */
+.creation{
+    margin: auto;
+    width:500px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+/* container-logo */
+.container-logo{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 200px;
+
+}
+.container-logo img{
+    height: 100%;
+}
+/* pop logo */
+.pop-logo{
+
+    width: 100%;
+    height: 200px;
+}
+.pop-logo h2{ 
+    margin-top: 20%;
+    font-size: 2rem;
+    transform: translateY(-50%);
+}
+/* :hover logo */
+.container-logo:hover .pop-logo{
+    opacity: 1;
+    transform: scale(1);
+}
+.container-logo:hover{
+    box-shadow: rgba(0, 0, 0, 0.8) -3px 5px 5px;
+    transform: translateY(0px);
+}
+/* container affiche */
+.container-affiche{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 200px;
+ 
+}
+.container-affiche img {
+    height: 100%;
+}
+/* pop affiche */
+.pop-affiche{
+    width: 100%;
+    height: 200px;
+}
+.pop-affiche h2{
+    margin-top: 20%;
+    font-size: 2rem;
+    transform: translateY(-50%);
+}
+
+/* :hover affiche */
+.container-affiche:hover .pop-affiche{
+    opacity: 1;
+    transform: scale(1);
+}
+.container-affiche:hover{
+    box-shadow: rgba(0, 0, 0, 0.8) -3px 5px 5px;
+    transform: translateY(0px);
+}
+/* container web  */
+.container-web{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 200px;
+
+}
+.container-web img{
+    height: 100%;
+}
+.pop-web{
+    width: 100%;
+    height: 200px;
+}
+.pop-web h2{
+    margin-top: 20%;
+    color: #fff;
+    font-size: 2.25rem;
+}
+/* hover web */
+.container-web:hover .pop-web{
+    opacity: 1;
+    transform: scale(1);
+}
+.container-web:hover{
+    box-shadow: rgba(0, 0, 0, 0.8) -3px 5px 5px;
+    transform: translateY(0px);
+}
+/* end cration */
+/* logo */
+
+.logo-page{
+    max-width: 800px;
+    margin: 0px;
+}
+.paragraph-logo{
+    width: 300px;
+}
+/* end logo */
+/* imprimés */
+
+.container_carousel{
+    display: block;
+    max-width: 800px;
+    height: 800px;
+    margin: auto;
+
+}
+}
+@media screen and ( max-width:420px){
+    /* body{
+        width: 420px;
+        overflow-x:hidden;
+    } */
+/* header */
+header{
+
+    max-width:320px;  
+}
+
+.header-name h3{
+    font-size: 1rem;
+}
+.header-name h4{
+    letter-spacing: 0.3rem;
+    transform: translate(-90px, 15px);    
+}
+.mini-rect{
+
+    transform: translate(-80px, 20px);
+
+}
+/* web-name */
+.web-name{
+    display: inline-block;
+    transform: translate(-80px, 0px); 
+    text-transform: uppercase;
+}
+
+/* end header name*/
+/* burger */
+.burger{ 
+    top:20px;
+}
+/* main- */
+main{
+    position: relative;
+    max-width:400px;
+    padding-top:100px ;
+}
+/* main-name */
+.main-name{
+    width: 320px;
+    margin-left: 0px;
+    text-align: center;
+    margin: auto;
+
+}
+/* andreotti */
+.main-name h1{
+    font-size: 2.43rem;
+}
+/* ludovic */
+.main-name h2{
+    font-size: 0.8rem;
+    letter-spacing: 1.2rem;
+}
+/* rect-blue */
+.rect-blue{
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top:20px;
+    margin-left: 0px;
+
+    width: 200px;
+    height:3px;
+
+}
+/* end rect-blue */
+/* main-job */
+.main-job{
+    width: 320px;
+    margin-top: 35px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    cursor: pointer;
+   
+
+}
+/*graphiste */
+.main-job h1{
+    font-size: 2.43rem;
+}
+/* freelance */
+.main-job h2{
+
+    font-size: 0.8rem;
+    letter-spacing: 0.9rem;
+}
+/* presentation */
+.main-name .pop-presentation{
+    top:30%;
+    left: -0%;
+    transform: scale(0.8);
+}
+.presentation{
+    left:-500%;
+    width:400px;
+}
+.presentation h5{
+    font-size: 1.1rem;
+    width: 350px;
+ 
+}
+.presentation h4{
+    font-size:1.3rem;
+   
+}
+.presentation p{
+    width: 300px;
+    font-size:0.9rem;
+    line-height: 1.3rem;
+    margin:8px;
+    text-align: justify;
+    color: rgb(0, 0, 0,0.8);
+}
+
+
+/* creation */
+.creation{
+    width: 320px;
+}
+/* container logo */
+.container-logo{
+    width: 350px;
+    height: 200px;
+    margin: auto;
+}
+.container-logo img{width: 100%;}
+/* container affiche */
+.container-affiche{
+
+    width: 350px;
+    height: 200px;
+
+}
+.container-affiche img {width: 100%;}
+/* container web  */
+.container-web{
+    width: 350px;
+    height: 200px;
+
+}
+.container-web img{width: 100%;}
+
+/* end creation */
+/* page logo */
+.logo-page{
+    max-width: 420px;
+}
+/* logo */
+.title-logo{
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+}
+/* paragraph */
+.paragraph-logo{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 0.8rem;
+    width: 300px;
+}
+.mini-logo{
+    width: 300px;
+    height: 210px;
+    margin-left: 10%;
+    top: 55%;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.mini-logo img{
+    width: 100px;
+}
+.row-left, .row-right{
+    display: none;;
+}
+/* end page logo */
+/* imprimés */
+
+.container_carousel{
+    display: block;
+    max-width: 320px;
+    height: 800px;
+    margin: auto;
+
+}
+.container_carousel p {
+    width: 300px;
+    text-align: center;
+    font-size:1rem;
+    line-height: 1rem;
+}
+/* le web */
+.leweb_image{
+    display:block;
+    width: 320px;
+    margin: auto;
+
+   
+}
+.leweb_image img{
+    display: block;
+    width: 320px;
+    transition: 1s;
+}
+.leweb_click h2{
+    font-weight: 800;
+    font-size: 1.2rem;
+
+}
+.leweb_contain{
+    flex-wrap: wrap;
+}
+/* le web design mini titre */
+.leweb_webdesign h2{
+    font-size: 1rem;
+    letter-spacing:0px;
+}
+/* lewe design paragraphs */
+.leweb_webdesign-parone{
+    width: 300px;  
+}
+.leweb_webdesign-partwo{
+    width: 300px;
+    margin-bottom: 50px;
+}
+.leweb_click-flex{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 20%;
+}
+/* le web onepage minititre */
+.leweb_onepage h2{
+    font-size: 1rem;
+    letter-spacing:0px;
+}
+/* le web one page paragraphs */
+.leweb_onepage-parone{
+    width: 300px;
+    margin-bottom: 10px;
+    letter-spacing: 0px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: justify;
+    
+}
+.tech_leweb img{
+    max-width: 300px;
+}
+.tech_leweb{
+    width: 300px;
+    margin: auto;
+}
+.explain_leweb{
+    font-size: 0.9rem;
+}
+.explain_leweb h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
